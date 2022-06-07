@@ -1,0 +1,39 @@
+.text-base {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.txt-logo {
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 0.38px;
+}
+
+.text-menu {
+  font-size: 14px;
+  letter-spacing: 0.18px;
+  color: #333;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.alt-menu-text {
+  font-size: 13px;
+  color: #666;
+  font-weight: normal;
+}
+
+.greay-small-text {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.campaign-summary {
+  font-size: 14px;
+  color: #fff;
+  width: 50%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  background: #000;
+}

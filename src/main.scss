@@ -1,0 +1,21 @@
+body {
+  font-size: 16px;
+}
+
+.mert {
+  width: 300px;
+  background: #000;
+}
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.example {
+  width: 594px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}

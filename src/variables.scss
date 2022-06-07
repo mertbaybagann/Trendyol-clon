@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+  --bg-trendyol: #f27a1a;
+  --black-lite: #333;
+  --gray: #666;
+  --dark-gray: #999;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+//Size
+.login-register-size {
+  width: 166.1px;
+  height: 32.1px;
+}
+// Font-size
+.font-size-sm {
+  font-size: 12px;
+}
+.font-size-base {
+  font-size: 14px;
+}
+.font-size-lg {
+  font-size: 16px;
+}
+.font-size-xl {
+  font-size: 18px;
+}
+
+// font-weting
+
+.font-bold {
+  font-weight: 600;
+}
+.font-semibold {
+  font-weight: 800;
+}
+
+//// Colors
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-black-lite {
+  color: var(--black-lite);
+}
+
+.color-trendyol {
+  color: var(--bg-trendyol);
+}
+.color-gray {
+  color: var(--gray);
+}
+
+///Background
+
+.bg-trendyol {
+  background-color: var(--bg-trendyol);
+}

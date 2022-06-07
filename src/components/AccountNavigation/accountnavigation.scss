@@ -1,0 +1,117 @@
+.account-navigation-container {
+  font-size: 14px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+
+  .account-navigation-item {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account {
+    position: relative;
+
+    &:hover {
+      .user-loggedin-container {
+        visibility: visible;
+      }
+    }
+
+    .user-loggedin-container {
+      width: auto;
+      background: #fff;
+      border: 1px solid var(--gray);
+      border-radius: 10px;
+      padding: 16px;
+      margin-top: 15px;
+      box-shadow: 0 3px 10px 0 #00000012;
+      top: 30px;
+      right: 5px;
+      position: absolute;
+      visibility: hidden;
+      color: #1b1b1b;
+
+      .little-box {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border-top: 1px solid var(--gray);
+        border-right: 1px solid var(--gray);
+        position: absolute;
+        top: -8px;
+        right: 25px;
+        background: #fff;
+        transform: rotate(-45deg);
+      }
+      .login-register-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        .login-register-item {
+          .btn-link {
+            border-radius: 5px;
+          }
+          :last-child {
+            border: 1px solid #dedede;
+          }
+        }
+      }
+
+      h2 {
+        margin-bottom: 10px;
+      }
+      ul {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .loggedin-account-item {
+          height: 20px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          width: auto;
+          margin-top: 10px;
+          .btn-account {
+            gap: 10px;
+            width: auto;
+            height: 25px;
+            .btn-icon {
+              color: var(--dark-gray);
+            }
+          }
+          &:hover {
+            svg {
+              color: var(--bg-trendyol);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .basket {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .basket-info {
+      width: 16px;
+      height: 16px;
+      border-radius: 100%;
+      color: #fff;
+      background-color: var(--bg-trendyol);
+      display: flex;
+      align-items: center;
+      font-size: 11px;
+      justify-content: center;
+      line-height: 16px;
+    }
+  }
+}
