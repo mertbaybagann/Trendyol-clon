@@ -1,5 +1,5 @@
 import React from "react";
-import "./main.scss";
+
 import "./variables.scss";
 import "the-new-css-reset";
 import ReactDOM from "react-dom/client";

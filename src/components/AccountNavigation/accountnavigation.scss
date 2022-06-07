@@ -1,17 +1,21 @@
 .account-navigation-container {
   font-size: 14px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
+
+  width: 300px;
 
   .account-navigation-item {
-    width: 100px;
-    height: 45px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    .btn-icon {
+      margin-right: 3px;
+    }
   }
+
   .account {
     position: relative;
 
@@ -20,7 +24,6 @@
         visibility: visible;
       }
     }
-
     .user-loggedin-container {
       width: auto;
       background: #fff;
@@ -79,7 +82,7 @@
           width: auto;
           margin-top: 10px;
           .btn-account {
-            gap: 10px;
+            gap: 5px;
             width: auto;
             height: 25px;
             .btn-icon {
@@ -97,21 +100,25 @@
   }
 
   .basket {
-    gap: 5px;
+    gap: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
     .basket-info {
-      width: 16px;
-      height: 16px;
-      border-radius: 100%;
-      color: #fff;
-      background-color: var(--bg-trendyol);
       display: flex;
       align-items: center;
-      font-size: 11px;
       justify-content: center;
+      background-color: #f27a1a;
+      color: #fff;
+      font-size: 11px;
+      width: 20px;
+      height: 16px;
       line-height: 16px;
+      text-align: center;
+      margin-left: 3px;
+      margin-top: 2px;
+      border-radius: 50%;
+      z-index: 1;
     }
   }
 }

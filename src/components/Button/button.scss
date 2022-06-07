@@ -12,10 +12,7 @@
 
   .btn-icon {
     font-size: 14px;
-    margin-right: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 2px;
   }
   .btn-img {
     display: flex;
@@ -44,6 +41,8 @@
   color: #000;
   .btn-icon {
     font-size: 16px;
+    display: flex;
+    align-items: center;
   }
   &:hover {
     color: var(--bg-trendyol);
@@ -70,11 +69,8 @@
 
 .suggestion-search-btn {
   box-sizing: border-box;
-
   display: flex;
-
   align-items: center;
-
   width: 99%;
   height: auto;
   min-height: 34px;

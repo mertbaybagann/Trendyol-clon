@@ -1,0 +1,49 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header-container {
+  .wrapper {
+    .right {
+      box-sizing: border-box;
+      padding-top: 5px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      gap: 30px;
+
+      li {
+        display: inline-block;
+
+        a {
+          font-size: 12px;
+          color: var(--dark-gray);
+        }
+      }
+    }
+  }
+  .sticky-header {
+    .wrapper {
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 64px;
+        width: 100%;
+
+        .logo {
+          a {
+            img {
+              width: 146px;
+              height: 100%;
+              margin-bottom: -3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

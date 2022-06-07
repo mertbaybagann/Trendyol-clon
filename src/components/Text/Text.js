@@ -5,7 +5,7 @@ import cn from "classnames";
 
 const style = {
   mode: {
-    Logo: "txt-logo",
+    logo: "txt-logo",
     MenuText: "text-menu",
     AltMenuText: "alt-menu-text",
     GreaySmallText: "greay-small-text",
