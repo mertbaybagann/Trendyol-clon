@@ -29,6 +29,19 @@
 }
 
 // Thema config
+.navigation {
+  font-size: 14px;
+  color: var(--black-lite);
+  line-height: 34px;
+  letter-spacing: 0.18px;
+  padding: 0;
+  display: block;
+  text-align: center;
+  font-weight: 800;
+  &:hover {
+    box-shadow: inset 0 -2px 0 0 #f27a1a;
+  }
+}
 
 .btn-account {
   display: flex;

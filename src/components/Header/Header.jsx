@@ -4,6 +4,7 @@ import Search from "../Search/Search";
 import AccountNavigation from "../AccountNavigation/AccountNavigation";
 import { Link } from "react-router-dom";
 import "./header.scss";
+import Navigation from "../Navigation/Navigation";
 const Header = () => {
   return (
     <div className="header-container">
@@ -35,6 +36,9 @@ const Header = () => {
             <AccountNavigation />
           </div>
         </div>
+      </div>
+      <div className="navigation">
+        <Navigation />
       </div>
     </div>
   );

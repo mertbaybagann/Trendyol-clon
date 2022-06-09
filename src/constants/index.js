@@ -1,4 +1,3 @@
-import React from "react";
 import { BsBoxSeam } from "react-icons/bs";
 import { RiMessage2Fill, RiCoupon3Fill } from "react-icons/ri";
 import { MdEmail } from "react-icons/md";

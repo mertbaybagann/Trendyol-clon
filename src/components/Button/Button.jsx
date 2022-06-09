@@ -9,6 +9,7 @@ const style = {
     suggestionPopBtn: "suggestion-popular-btn",
     suggestionSearchBtn: "suggestion-search-btn",
     accountbtn: "btn-account",
+    navigation: "navigation",
   },
   size: {
     loginbtn: "login-register-size",
@@ -69,10 +70,12 @@ function BaseLinkButton({
   size,
   color,
   backgroundcolor,
+  onMouseOverCapture,
   ...props
 }) {
   return (
     <Link
+      onAbortCapture={onMouseOverCapture}
       className={cn(
         "btn-link ",
         style.thema[thema],
