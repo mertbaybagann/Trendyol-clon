@@ -326,11 +326,13 @@ export const NAVBAR = [
         id: 1,
         img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
         title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
       },
       {
         id: 2,
         img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
         title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
       },
     ],
   },
@@ -399,6 +401,20 @@ export const NAVBAR = [
         ],
       },
     ],
+    campaigns: [
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+    ],
   },
   {
     id: 3,
@@ -423,6 +439,20 @@ export const NAVBAR = [
             path: "/erkek-kot-pantolon",
           },
         ],
+      },
+    ],
+    campaigns: [
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
       },
     ],
   },
@@ -451,6 +481,20 @@ export const NAVBAR = [
         ],
       },
     ],
+    campaigns: [
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+    ],
   },
   {
     id: 5,
@@ -475,6 +519,21 @@ export const NAVBAR = [
             path: "/erkek-kot-pantolon",
           },
         ],
+      },
+    ],
+
+    campaigns: [
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
       },
     ],
   },
@@ -503,6 +562,20 @@ export const NAVBAR = [
         ],
       },
     ],
+    campaigns: [
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+    ],
   },
   {
     id: 7,
@@ -527,6 +600,32 @@ export const NAVBAR = [
             path: "/erkek-kot-pantolon",
           },
         ],
+      },
+    ],
+    campaigns: [
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 1,
+        img: "https://cdn.dsmcdn.com/mnresize/500/247/ty454/campaign/banners/original/608260/a26423339b_0_detay.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
+      },
+      {
+        id: 2,
+        img: "https://cdn.dsmcdn.com/ty453/pimWidgetApi/mobile_20220614090541_2231820TRENDYOLMILLABeachwearBuyukFirsatlar2231820mobile.jpg",
+        title: "Kırmızı Kılıç",
+        path: "/kırmızı-kılıç",
       },
     ],
   },

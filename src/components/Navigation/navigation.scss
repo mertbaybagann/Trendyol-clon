@@ -31,9 +31,9 @@
             display: block;
             .sub-nav-center {
               width: 100%;
-              padding: 20px;
+              padding: 20px !important;
               display: flex;
-
+              height: 100%;
               .sub-nav-outer {
                 width: 100%;
 
@@ -95,10 +95,24 @@
             }
 
             .campaign-container {
-              width: 300px;
-              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              flex-direction: row;
+              flex-grow: 2;
+              flex-shrink: 1;
+              gap: 10px;
+              .normal-columna {
+                display: flex;
 
-              background-color: red;
+                img {
+                  height: 137px;
+                  width: 265px;
+                  border: 0.8px solid #e7e7e7;
+                  border-radius: 6px;
+                }
+              }
             }
           }
 
