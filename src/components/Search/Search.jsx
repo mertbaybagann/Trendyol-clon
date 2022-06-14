@@ -37,10 +37,7 @@ function Search() {
           onBlur={handleExit}
           className="search-input"
           type="text"
-          tabindex="1"
           placeholder="Aradığınız ürün, kategori veya markayı yazınız"
-          maxlength="50"
-          autocomplete="off"
           value={handleText}
         />
         <span className="search-icon">&#160;</span>

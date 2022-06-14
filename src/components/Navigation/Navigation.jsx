@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./navigation.scss";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import { NAVBAR } from "../../constants/Nabar";
 
 const Navigation = () => {
+  const [Submenu, setSubmenu] = useState([]);
+
+  useEffect(() => {
+    setSubmenu(NAVBAR);
+  }, []);
+
   return (
     <div className="navigation">
       <div className="navigation-wrapper">
         <nav>
           <ul className="main-nav">
-            {NAVBAR.map((item, index) => {
+            {Submenu.map((item, index) => {
               const idname = `sub-nav-${item.id}`;
 
               return (
@@ -33,20 +39,18 @@ const Navigation = () => {
                   <Button to="asdas" thema="navigation">
                     {item.name}
                   </Button>
-                  <div id={idname} className="sub-nav">
+                  <div key={index} id={idname} className="sub-nav ">
                     <div className="sub-nav-center">
                       <div className="sub-nav-outer">
-                        {item.menu.map((menu, indexs) => {
-                          const submenuidnex = menu.submenu.length;
-
-                          return (
-                            <div key={indexs} className="normal-column">
+                        <div className="normal-column">
+                          {item.menu.map((menu, index) => {
+                            return (
                               <div className="category-box">
-                                <Link to="">{menu.name}</Link>{" "}
+                                <Link to="">{menu.name}</Link>
                                 <ul className="sub-item-list">
-                                  {menu.submenu.map((submenu, subidnex) => {
+                                  {menu.submenu.map((submenu, index) => {
                                     return (
-                                      <li key={subidnex} className="sub-item">
+                                      <li className="sub-item">
                                         <Link to={submenu.path}>
                                           {submenu.name}
                                         </Link>
@@ -54,14 +58,12 @@ const Navigation = () => {
                                     );
                                   })}
                                 </ul>
-                                {submenuidnex < 7
-                                  ? console.log(submenuidnex)
-                                  : null}
                               </div>
-                            </div>
-                          );
-                        })}
+                            );
+                          })}
+                        </div>
                       </div>
+                      <div className="campaign-container">ss</div>
                     </div>
                   </div>
                 </li>
@@ -75,3 +77,22 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+// return (
+//   <div key={index} className="normal-column">
+//     <div className="category-box">
+//       <Link to="">{menu.name}</Link>
+//       <ul className="sub-item-list">
+//         {menu.submenu.map((submenu, index) => {
+//           return (
+//             <li className="sub-item">
+//               <Link to={submenu.path}>
+//                 {submenu.name}
+//               </Link>
+//             </li>
+//           );
+//         })}
+//       </ul>
+//     </div>
+//   </div>
+// );
