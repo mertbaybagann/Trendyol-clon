@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export const NavbarCampaign = ({ title, path, img }) => {
   return (
-    <div className="normal-columna">
-      <Link to={path}>
-        <img src={img} al={title} />
+    <>
+      <Link className="campaign-link" to={path}>
+        <img className="campaign-img" src={img} alt={title} />
       </Link>
-    </div>
+    </>
   );
 };

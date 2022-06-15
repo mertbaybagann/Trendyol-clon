@@ -47,7 +47,7 @@
                   .category-box {
                     display: flex;
                     flex-direction: column;
-                    justify-content: start;
+                    justify-content: flex-start;
                     align-items: flex-start;
 
                     margin: 0;
@@ -68,7 +68,7 @@
                     ul {
                       .sub-item {
                         display: flex;
-                        justify-content: start;
+                        justify-content: flex-start;
                         align-items: flex-start;
                         line-height: 20px !important;
                         a {
@@ -93,24 +93,34 @@
                 }
               }
             }
-
+            .small {
+              width: 300px !important;
+            }
+            .medium {
+              width: auto !important;
+            }
             .campaign-container {
               display: flex;
+              flex-wrap: wrap;
               justify-content: center;
               align-items: center;
-              flex-wrap: wrap;
-              flex-direction: row;
-              flex-grow: 2;
-              flex-shrink: 1;
+              width: 600px;
               gap: 10px;
-              .normal-columna {
-                display: flex;
+              .campaign-link {
+                background: #000;
+                width: 265px;
+                height: 137px;
 
-                img {
-                  height: 137px;
-                  width: 265px;
-                  border: 0.8px solid #e7e7e7;
+                .campaign-img {
+                  background-color: red;
+                  height: 100%;
+                  width: 100%;
                   border-radius: 6px;
+
+                  &:hover {
+                    transform: scale(1.015);
+                    transition: all 1s ease;
+                  }
                 }
               }
             }
