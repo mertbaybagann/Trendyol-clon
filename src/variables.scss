@@ -9,6 +9,7 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  height: 200vh;
 }
 
 //Size
@@ -63,4 +64,16 @@ body {
 
 .bg-trendyol {
   background-color: var(--bg-trendyol);
+}
+
+// Text align
+
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
 }

@@ -32,11 +32,12 @@
       padding: 16px;
       margin-top: 15px;
       box-shadow: 0 3px 10px 0 #00000012;
-      top: 30px;
+      top: 25px;
       right: 5px;
       position: absolute;
       visibility: hidden;
       color: #1b1b1b;
+      z-index: 8;
 
       .little-box {
         content: "";

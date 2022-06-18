@@ -6,6 +6,17 @@ import { Link } from "react-router-dom";
 import "./header.scss";
 import Navigation from "../Navigation/Navigation";
 const Header = () => {
+  const elements = document.querySelectorAll(`body`);
+  elements.forEach((element) => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        document.getElementById("sticky-header").classList.add("sticky");
+      } else {
+        document.getElementById("sticky-header").classList.remove("sticky");
+      }
+    });
+  });
+
   return (
     <div className="header-container">
       <div className="wrapper">
@@ -21,7 +32,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="sticky-header">
+      <div id="sticky-header">
         <div className="wrapper">
           <div className="header">
             <div className="logo">

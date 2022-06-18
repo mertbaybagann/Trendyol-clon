@@ -9,7 +9,7 @@ const style = {
     MenuText: "text-menu",
     AltMenuText: "alt-menu-text",
     GreaySmallText: "greay-small-text",
-    CampaignSummary: "campaign-summary",
+    CampaignSummary: "campaign-summarys",
   },
   size: {
     sm: "font-size-sm",
@@ -28,9 +28,14 @@ const style = {
     bold: "font-bold",
     semibold: "font-semibold",
   },
+  align: {
+    left: "text-align-left",
+    center: "text-align-center",
+    right: "text-align-right",
+  },
 };
 
-export default function Text({ children, mode, size, color, bold }) {
+export default function Text({ children, mode, size, color, bold, align }) {
   return (
     <p
       className={cn(
@@ -38,7 +43,8 @@ export default function Text({ children, mode, size, color, bold }) {
         style.mode[mode],
         style.size[size],
         style.color[color],
-        style.bold[bold]
+        style.bold[bold],
+        style.align[align]
       )}
     >
       {children}
