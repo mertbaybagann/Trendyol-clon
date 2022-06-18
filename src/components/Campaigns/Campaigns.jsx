@@ -46,7 +46,13 @@ const Campaigns = ({ mode, newcampaning }) => {
             >
               <Link className="campaign-link " to={campaign.href}>
                 <span className="image-container">
+<<<<<<< HEAD
                   <img src={campaign.src} alt={campaign.title} />{" "}
+=======
+                  
+                    <img src={campaign.src} alt={campaign.title} />{" "}
+               
+>>>>>>> abd34e55ff18b7528173ff8f29669269cc110fc3
                 </span>
                 <summary className="campaign-summary">
                   <span>
