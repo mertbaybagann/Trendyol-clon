@@ -11,7 +11,11 @@ function App() {
       </Helmet>
       <div className="wrapper">
         <TopSiliders />
-        <CampaignList mode="campaignsmall" />
+        <div className="sticky-wrapper">
+          <CampaignList mode="campaignbig" newcampaning="true" />
+        </div>
+
+        <CampaignList mode="campaignsmall" newcampaning="false" />
       </div>
     </div>
   );

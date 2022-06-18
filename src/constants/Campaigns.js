@@ -6,7 +6,7 @@ export const CAMPANING = [
     title: "Trendyol Collection - Yeni Sezon Fırsatları",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const CAMPANING = [
     title: "Ev Ürünlerinde Fenomenlerin Seçimi",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const CAMPANING = [
     title: "Avva - Yaz Fırsatları",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const CAMPANING = [
     title: "Trendyol Collection- Özel Fırsatlar",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const CAMPANING = [
     title: "Altınyıldız Classics ",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const CAMPANING = [
     title: "Sağlık Ürünlerinde Yaz Alışverişi Zamanı",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const CAMPANING = [
     title: "Damat - TWN - Erkek Tekstil",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const CAMPANING = [
     title: "Saat & Hediye Setleri",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const CAMPANING = [
     title: "Saat & Gözlükte İndirim Zamanı",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ export const CAMPANING = [
     title: "Erkek Giyimde Polo Yaka Fırsatları",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const CAMPANING = [
     title: "Pull&Bear - Yeni Sezon",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ export const CAMPANING = [
     title: "Flo",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ export const CAMPANING = [
     title: "Babalar Gününe Özel Şort & T-shirt & Terlik",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ export const CAMPANING = [
     title: "Eviniz İçin Her Şey",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 15,
@@ -132,16 +132,16 @@ export const CAMPANING = [
     title: "TRENDYOL MAN - Babalar Gününe Özel İndirimler",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 16,
     href: "/saglik-urunlerinde-300-tl-ye-30-tl-indirim/butikdetay/608859/erkek",
     src: "https://cdn.dsmcdn.com/web/production/large_boutique_placeholder.png",
-    title: "",
+    title: "ssssssss",
     description: "",
     date: "",
-    newCampaning: Boolean(true),
+    newCampaning: true,
   },
   {
     id: 17,
@@ -149,7 +149,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty386/pimWidgetApi/mobile_20220406142015_2215853KadinMobile202204061701.jpg",
     title: "U.S. Polo Assn. - Kadın & Erkek & Çocuk Koleksiyonu",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 18,
@@ -157,7 +157,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/608045/a2569691b4_2.jpg",
     title: "Saat & Hediye Setleri",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 19,
@@ -165,7 +165,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty410/pimWidgetApi/mobile_20220425125502_2205034KadinMobile202202211601.jpg",
     title: "Nike",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 20,
@@ -173,7 +173,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/608327/4561bb7552_2.jpg",
     title: "Fossil - Çanta & Cüzdan Fırsatı",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 21,
@@ -181,7 +181,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty443/pimWidgetApi/mobile_20220601051827_2231296ErkekMobile202205311314adidaserkek.jpg",
     title: "adidas",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 22,
@@ -189,7 +189,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/608521/57f2555a91_2.jpg",
     title: "English Home - Yaz Alışverişi",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 23,
@@ -197,7 +197,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty312/pimWidgetApi/mobile_20220131105303_366a143db40.jpg",
     title: "Calvin Klein - Tekstil",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 24,
@@ -205,7 +205,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/608729/ad9dedd1fb_2.jpg",
     title: "En Sevdiğiniz Mobilyalar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 25,
@@ -213,7 +213,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty458/campaign/banners/original/608331/d8f77d4046_2.jpg",
     title: "Gant - Kadın & Erkek Koleksiyonu",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 26,
@@ -221,7 +221,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty445/pimWidgetApi/mobile_20220603061849_2231425ErkekMobile202206021801.jpg",
     title: "Babalar Gününe Özel İndirimler",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 27,
@@ -229,7 +229,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/608265/c9216aec13_2.jpg",
     title: "Trendyol Collection- Dev Fırsatlar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 28,
@@ -237,7 +237,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/pimWidgetApi/mobile_20220617100848_TVGoruntuSesSistemleri2231701mobile.jpg",
     title: "TV & Görüntü & Ses Sistemleri",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 29,
@@ -245,7 +245,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/608068/6e95d9d104_2.jpg",
     title: "Tüm Sağlık Ürünleri",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 30,
@@ -253,7 +253,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty413/pimWidgetApi/mobile_20220429105620_2227015ElektronikMobile202204.jpg",
     title: "TV, Görüntü & Ses Sistemleri",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 31,
@@ -261,7 +261,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/608331/803d7b3427_2.jpg",
     title: "Gant - Kadın & Erkek Koleksiyonu",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 32,
@@ -269,7 +269,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/608198/aea8d09739_2.jpg",
     title: "Temel Mutfak İhtiyaçları 250 TL üzeri 25 TL indirim",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 33,
@@ -277,7 +277,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty458/pimWidgetApi/mobile_20220617112055_DefactoErkekYazAlisverisi2231762mobile.jpg",
     title: "Defacto - Erkek Tekstil - Yaz Alışverişi",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 34,
@@ -285,7 +285,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/607765/e1a3a53011_2.jpg",
     title: "Evinizin Yıldızları - Sofra&Mutfak",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 35,
@@ -293,7 +293,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/607767/7748ac4bd9_2.jpg",
     title: "Sofra&Mutfakta Kaçırılmaz Fırsat",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 36,
@@ -301,7 +301,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty373/campaign/banners/original/584262/58b97477e7_0.jpg",
     title: "Muggo - Kaçırılmayacak Fırsatlar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 37,
@@ -309,7 +309,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty396/pimWidgetApi/mobile_20220413192723_1234567AyakkabiCantaMobile202204131601.jpg",
     title: "Crocs - Yeni Sezon",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 38,
@@ -317,7 +317,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/607829/8b7c4512cb_2.jpg",
     title: "Ev Tekstilinde Aradığınız Her Şey",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 39,
@@ -325,7 +325,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty452/pimWidgetApi/mobile_20220608073931_2231595ErkekMobile202206081001.jpg",
     title: "Defacto - Babalar Günü",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 40,
@@ -333,7 +333,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/607877/93c1804fa5_2.jpg",
     title: "Evidea",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 41,
@@ -341,7 +341,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty453/campaign/banners/original/604851/864666141b_2.jpg",
     title: "Çeyiz Hazırlığınıza Özel 500TL Üzerine 80TL İndirim Fırsatı!",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 42,
@@ -349,7 +349,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/pimWidgetApi/mobile_20220617122845_LufianYazAlisverisi2232591mobile.jpg",
     title: "Lufian - Yaz Alışverişi",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 43,
@@ -357,7 +357,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty452/campaign/banners/original/607314/e16410d906_0.jpg",
     title: "U.S. Polo Assn. - Kadın & Erkek  Koleksiyonu - ST",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 44,
@@ -365,7 +365,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/607612/738c8a8af7_2.jpg",
     title: "BG Store - Yaz Alışverişi &  En Uzun Gün Fırsatları",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 45,
@@ -373,7 +373,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/607974/a415694057_2.jpg",
     title: "Dekorasyon ve Aydınlatma Fırsatları",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 46,
@@ -381,7 +381,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/web/production/small_boutique_placeholder.jpg",
     title: "Guess & CK - Çanta & Sneaker",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 47,
@@ -389,7 +389,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty446/campaign/banners/original/605460/9a22a42d12_0.jpg",
     title: "campaign-summary",
     description: "",
-    date: "",
+    newCampaning: false,
   },
 
   {
@@ -398,7 +398,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty432/pimWidgetApi/mobile_20220518123118_spxmbl.jpg",
     title: "SPX Yeni Sezon Ürünler",
     description: "",
-    date: "",
+    newCampaning: false,
   },
 
   {
@@ -407,7 +407,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/608197/41a53ad306_2.jpg",
     title: "Temel Mutfak İhtiyaçları 150 TL üzeri 15 TL indirim",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 50,
@@ -415,7 +415,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty454/campaign/banners/original/608734/20b7891631_2.jpg",
     title: "Saat & Saat - Babalar Günü Özel",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 51,
@@ -423,7 +423,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty444/pimWidgetApi/mobile_20220604102230_2216070AyakkabiCantaMobile202204111801.jpg",
     title: "Hotiç - Beklediğin Fiyatlar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 52,
@@ -431,7 +431,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/608006/679ff10d51_2.jpg",
     title: "Bijuteri Takı Fırsatları & Yaz Aksesuarları ",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 53,
@@ -439,7 +439,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty458/campaign/banners/original/608474/a40fd4a2e8_2.jpg",
     title: "Mobilyada Kaçırılmaz Fırsatlar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 54,
@@ -447,7 +447,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/campaign/banners/original/598114/3302e4c2a8_2.jpg",
     title: "Spor Markalarında Fırsatlar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 55,
@@ -455,7 +455,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty444/pimWidgetApi/mobile_20220603144352_2231470AyakkabiCantaMobile202206031705stre.jpg",
     title: "Instreet",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 56,
@@ -463,7 +463,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty458/campaign/banners/original/608301/69e35015cf_2.jpg",
     title: "Karaca & Emsan & Karaca Home",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 57,
@@ -471,7 +471,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/pimWidgetApi/mobile_20220617122731_ButceDostuSneakerlar2232634mobile.jpg",
     title: "Bütçe Dostu Sneakerlar",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 58,
@@ -479,7 +479,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/608202/a3fcdc5454_2.jpg",
     title: "Makarna Lütfen Fırsatları",
     description: "",
-    date: "",
+    newCampaning: false,
   },
 
   {
@@ -488,7 +488,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty458/campaign/banners/original/608528/50278b6045_2.jpg",
     title: "Yaz Fırsatları",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 60,
@@ -496,7 +496,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty430/pimWidgetApi/mobile_20220512130836_2227336ErkekMobile202205111702.jpg",
     title: "Erkek Giyimde Hızlı Teslimat",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 61,
@@ -504,7 +504,7 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty457/campaign/banners/original/607899/742c3ad55b_2.jpg",
     title: "Parfümde Dev İndirim",
     description: "",
-    date: "",
+    newCampaning: false,
   },
   {
     id: 62,
@@ -512,6 +512,6 @@ export const CAMPANING = [
     src: "https://cdn.dsmcdn.com/ty456/pimWidgetApi/mobile_20220617122954_SporOutdoorKampanyaninEnIyileri2232640mobile.jpg",
     title: "Spor & Outdoor Kampanyanın En İyileri",
     description: "",
-    date: "",
+    newCampaning: false,
   },
 ];

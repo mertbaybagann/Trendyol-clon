@@ -5,9 +5,9 @@ import { CAMPANING } from "../../constants/Campaigns";
 import cn from "classnames";
 import Text from "../Text/Text";
 
-const Campaigns = ({ mode }) => {
+const Campaigns = ({ mode, newcampaning }) => {
   const [campaigns, setCampaigns] = useState([]);
-
+  const campaninew = `${newcampaning}`;
   useEffect(() => {
     setCampaigns(CAMPANING);
   }, []);
@@ -18,11 +18,18 @@ const Campaigns = ({ mode }) => {
     },
   };
 
+  const podyum = (campaign) => {
+    if (campaninew === "true") {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
   return (
     <>
-      {campaigns
-        .filter((item) => item.newCampaning !== true)
-        .map((campaign) => {
+      {CAMPANING.filter((item) => item.newCampaning === podyum(campaninew)).map(
+        (campaign) => {
           const listid = `list-${campaign.id}`;
           return (
             <article
@@ -39,9 +46,7 @@ const Campaigns = ({ mode }) => {
             >
               <Link className="campaign-link " to={campaign.href}>
                 <span className="image-container">
-                  <LazyLoad once={true} placeholder="asdasdsaasdasd">
-                    <img src={campaign.src} alt={campaign.title} />{" "}
-                  </LazyLoad>
+                  <img src={campaign.src} alt={campaign.title} />{" "}
                 </span>
                 <summary className="campaign-summary">
                   <span>
@@ -57,7 +62,8 @@ const Campaigns = ({ mode }) => {
               </Link>
             </article>
           );
-        })}
+        }
+      )}
     </>
   );
 };
