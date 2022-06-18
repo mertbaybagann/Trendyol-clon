@@ -39,9 +39,9 @@ const Campaigns = ({ mode }) => {
             >
               <Link className="campaign-link " to={campaign.href}>
                 <span className="image-container">
-                  <LazyLoad once={true} placeholder="asdasdsaasdasd">
+                  
                     <img src={campaign.src} alt={campaign.title} />{" "}
-                  </LazyLoad>
+               
                 </span>
                 <summary className="campaign-summary">
                   <span>
