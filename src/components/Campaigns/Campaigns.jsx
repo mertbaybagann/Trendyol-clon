@@ -46,17 +46,17 @@ const Campaigns = ({ mode, newcampaning }) => {
             >
               <Link className="campaign-link " to={campaign.href}>
                 <span className="image-container">
-<<<<<<< HEAD
                   <img src={campaign.src} alt={campaign.title} />{" "}
-=======
-                  
-                    <img src={campaign.src} alt={campaign.title} />{" "}
-               
->>>>>>> abd34e55ff18b7528173ff8f29669269cc110fc3
                 </span>
                 <summary className="campaign-summary">
                   <span>
-                    <Text mode="CampaignSummary">{campaign.title}</Text>
+                    {mode === "campaignbig" ? (
+                      <Text color="white" size="base">
+                        {campaign.title}
+                      </Text>
+                    ) : (
+                      <Text mode="CampaignSummary">{campaign.title}</Text>
+                    )}
                   </span>
                   <div id={listid} className="hover-text">
                     <Text> Alışverişe Başla </Text>
